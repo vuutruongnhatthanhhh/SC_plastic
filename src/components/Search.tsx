@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 // import { FaSearch } from "react-icons/fa";
 
 interface SearchProps {
@@ -7,11 +7,13 @@ interface SearchProps {
   onCheckboxChange: (index: number, checked: boolean) => void;
 }
 
-const Search: React.FC<SearchProps> = ({
-  // onSearch,
-  checkboxes,
-  // onCheckboxChange,
-}) => {
+const Search: React.FC<SearchProps> = (
+  {
+    // onSearch,
+    // checkboxes,
+    // onCheckboxChange,
+  }
+) => {
   const [query, setQuery] = useState<string>("");
   // const [clientCheckboxes, setClientCheckboxes] = useState(checkboxes);
   // const [isClient, setIsClient] = useState<boolean>(false);
