@@ -8,18 +8,18 @@ interface SearchProps {
 }
 
 const Search: React.FC<SearchProps> = ({
-  onSearch,
+  // onSearch,
   checkboxes,
-  onCheckboxChange,
+  // onCheckboxChange,
 }) => {
   const [query, setQuery] = useState<string>("");
-  const [clientCheckboxes, setClientCheckboxes] = useState(checkboxes);
+  // const [clientCheckboxes, setClientCheckboxes] = useState(checkboxes);
   // const [isClient, setIsClient] = useState<boolean>(false);
 
-  useEffect(() => {
-    // setIsClient(true);
-    setClientCheckboxes(checkboxes);
-  }, [checkboxes]);
+  // useEffect(() => {
+  // setIsClient(true);
+  //   setClientCheckboxes(checkboxes);
+  // }, [checkboxes]);
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setQuery(e.target.value);
