@@ -1,7 +1,6 @@
 import Slider from "@/components/Slider";
 import Carousel from "@/components/TechCarousel";
 import Courses from "@/components/Courses";
-import Blogs from "@/components/Blogs";
 import QuoteRequestForm from "@/components/QuoteRequestForm";
 
 export default function Home() {
@@ -48,32 +47,32 @@ export default function Home() {
     },
   ];
 
-  const blogs = [
-    {
-      title: "Cách tối ưu SEO với Next.js",
-      description: "Tối ưu thứ hạng tìm kiếm google",
-      imageUrl: "/images/blogs/blog-nextjs.png",
-      link: "/course/react",
-    },
-    {
-      title: "Cách tối ưu SEO với Next.js 2",
-      description: "Tối ưu thứ hạng tìm kiếm google",
-      imageUrl: "/images/blogs/blog-nextjs.png",
-      link: "/course/react",
-    },
-    {
-      title: "Cách tối ưu SEO với Next.js 3",
-      description: "Tối ưu thứ hạng tìm kiếm google",
-      imageUrl: "/images/blogs/blog-nextjs.png",
-      link: "/course/react",
-    },
-    {
-      title: "Cách tối ưu SEO với Next.js 4",
-      description: "Tối ưu thứ hạng tìm kiếm google",
-      imageUrl: "/images/blogs/blog-nextjs.png",
-      link: "/course/react",
-    },
-  ];
+  // const blogs = [
+  //   {
+  //     title: "Cách tối ưu SEO với Next.js",
+  //     description: "Tối ưu thứ hạng tìm kiếm google",
+  //     imageUrl: "/images/blogs/blog-nextjs.png",
+  //     link: "/course/react",
+  //   },
+  //   {
+  //     title: "Cách tối ưu SEO với Next.js 2",
+  //     description: "Tối ưu thứ hạng tìm kiếm google",
+  //     imageUrl: "/images/blogs/blog-nextjs.png",
+  //     link: "/course/react",
+  //   },
+  //   {
+  //     title: "Cách tối ưu SEO với Next.js 3",
+  //     description: "Tối ưu thứ hạng tìm kiếm google",
+  //     imageUrl: "/images/blogs/blog-nextjs.png",
+  //     link: "/course/react",
+  //   },
+  //   {
+  //     title: "Cách tối ưu SEO với Next.js 4",
+  //     description: "Tối ưu thứ hạng tìm kiếm google",
+  //     imageUrl: "/images/blogs/blog-nextjs.png",
+  //     link: "/course/react",
+  //   },
+  // ];
   return (
     <div>
       <Slider images={images} />

@@ -3,16 +3,16 @@ import React, { useState } from "react";
 import Courses from "@/components/Courses";
 import Search from "@/components/Search";
 export default function Course() {
-  const [filters, setFilters] = useState({
-    courses: [],
-    services: [],
-    sourceCode: [],
-  });
+  // const [filters, setFilters] = useState({
+  //   courses: [],
+  //   services: [],
+  //   sourceCode: [],
+  // });
 
-  const handleFilterChange = (newFilters: any) => {
-    setFilters(newFilters);
-    console.log("Selected Filters:", newFilters);
-  };
+  // const handleFilterChange = (newFilters: any) => {
+  //   setFilters(newFilters);
+  //   console.log("Selected Filters:", newFilters);
+  // };
 
   const handleSearch = (query: string) => {
     console.log("Searching for:", query);

@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { FaRegCheckCircle } from "react-icons/fa"; // Thêm các icon từ react-icons
+// import { FaRegCheckCircle } from "react-icons/fa"; // Thêm các icon từ react-icons
 
 interface ProcessStepProps {
   number: number;

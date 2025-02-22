@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { FaSearch } from "react-icons/fa";
+// import { FaSearch } from "react-icons/fa";
 
 interface SearchProps {
   onSearch: (query: string) => void;
@@ -14,7 +14,7 @@ const Search: React.FC<SearchProps> = ({
 }) => {
   const [query, setQuery] = useState<string>("");
   const [clientCheckboxes, setClientCheckboxes] = useState(checkboxes);
-  const [isClient, setIsClient] = useState<boolean>(false);
+  // const [isClient, setIsClient] = useState<boolean>(false);
 
   useEffect(() => {
     // setIsClient(true);
@@ -25,17 +25,17 @@ const Search: React.FC<SearchProps> = ({
     setQuery(e.target.value);
   };
 
-  const handleSearch = () => {
-    onSearch(query);
-  };
+  // const handleSearch = () => {
+  //   onSearch(query);
+  // };
 
-  const handleCheckboxChange = (index: number) => {
-    const newCheckedState = !clientCheckboxes[index].checked;
-    onCheckboxChange(index, newCheckedState);
-    const updatedCheckboxes = [...clientCheckboxes];
-    updatedCheckboxes[index].checked = newCheckedState;
-    setClientCheckboxes(updatedCheckboxes);
-  };
+  // const handleCheckboxChange = (index: number) => {
+  //   const newCheckedState = !clientCheckboxes[index].checked;
+  //   onCheckboxChange(index, newCheckedState);
+  //   const updatedCheckboxes = [...clientCheckboxes];
+  //   updatedCheckboxes[index].checked = newCheckedState;
+  //   setClientCheckboxes(updatedCheckboxes);
+  // };
 
   // if (!isClient) {
   //   return null;

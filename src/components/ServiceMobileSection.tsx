@@ -1,5 +1,5 @@
 import React from "react";
-import { FaCode, FaUser, FaTruck, FaMobileAlt } from "react-icons/fa";
+import { FaUser, FaTruck, FaMobileAlt } from "react-icons/fa";
 import ServiceCard from "./ServiceCard";
 
 const ServicesSection: React.FC = () => {

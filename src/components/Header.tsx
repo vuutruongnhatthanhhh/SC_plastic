@@ -1,6 +1,5 @@
 "use client";
 import React, { useState, useEffect, useRef } from "react";
-import { FaUser } from "react-icons/fa";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 import AuthForm from "./AuthForm";

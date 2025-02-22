@@ -3,16 +3,16 @@ import React, { useState } from "react";
 import Blogs from "@/components/Blogs";
 import Search from "@/components/Search";
 const BlogPage: React.FC = () => {
-  const [filters, setFilters] = useState({
-    courses: [],
-    services: [],
-    sourceCode: [],
-  });
+  // const [filters, setFilters] = useState({
+  //   courses: [],
+  //   services: [],
+  //   sourceCode: [],
+  // });
 
-  const handleFilterChange = (newFilters: any) => {
-    setFilters(newFilters);
-    console.log("Selected Filters:", newFilters);
-  };
+  // const handleFilterChange = (newFilters: any) => {
+  //   setFilters(newFilters);
+  //   console.log("Selected Filters:", newFilters);
+  // };
 
   const handleSearch = (query: string) => {
     console.log("Searching for:", query);

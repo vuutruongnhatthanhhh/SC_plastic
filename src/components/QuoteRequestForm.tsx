@@ -1,6 +1,6 @@
 "use client";
 import React, { useState, useEffect } from "react";
-import { FaYoutube, FaFacebook, FaTiktok, FaInstagram } from "react-icons/fa";
+import { FaYoutube, FaFacebook, FaTiktok } from "react-icons/fa";
 
 interface FormData {
   name: string;
